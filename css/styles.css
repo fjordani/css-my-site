@@ -3,17 +3,30 @@
     margin: 0px;
     padding: 0px;
     border: none;
-    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-div.header{
+.t-container{
     background-color: #f38181;
-    padding: 5px;
-    width: 100%;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
 }
 
-div.intro{
-    background: url('../images/mountains.jpg') no-repeat;
-    background-size: 100% 300px;
-    padding: 1em;
+.t-container>p>span{
+    text-decoration: underline;
+}
+
+#top-cloud{
+    position: absolute;
+    right: 620px;
+    top: 40px;
+
+}
+
+#bottom-cloud{
+    position: absolute;
+    left: 620px;
+    bottom: 300px
 }
