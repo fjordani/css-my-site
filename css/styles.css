@@ -7,12 +7,37 @@ body {
     text-align: center;
 }
 
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #fce38a;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 10%;
+    clear: both;
+}
+
 div.t-container{
     background-color: #f38181;
     margin: 0 auto 0 auto;
     padding-top: 5rem;
     position: relative;
     height: 92vh;
+}
+
+.t-container>h2,.t-container>h1,.t-container>p{
+    color: #eaffd0;
+}
+
+.contact-me>h2,div>div>h2{
+    color: #f38181;
+}
+
+h3,a{
+    color:#11999e;
 }
 
 .t-container>h1{
@@ -23,6 +48,7 @@ div.t-container{
 
 .t-container>p{
     font-size: 2.5rem;
+    font-weight: normal;
     margin-top: 1.6rem;
 }
 
@@ -55,9 +81,75 @@ div.t-container{
 .middle-container{
     background-color: #95e1d3;
     padding: 2rem 0 2rem 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skills>h2{
+    padding: 2rem 0 2rem 0;
+}
+div.skill-row{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-row>h3,.skill-row>p{
+    text-align: left;
+}
+
+
+.skill-row>p{
+    padding-bottom: 2.5rem;
+}
+
+.img1{
+    float:left;
+    padding-right: 1.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.img2{
+    float: right;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+.btn{
+    -webkit-border-radius:20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #95E1D3;
+    padding: 22px;
+    background-color: #f38181;
+    text-shadow: 1px 1 px 20px #fce38a;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 .bottom-container{
     background-color: #eaffd0;
-    padding: 2rem 0 2rem 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bottom-container>a{
+    color: #f38181;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 2.5rem;
+}
+
+.bottom-container>p{
+    color: #95e1d3;
+    padding-top: 1.5rem;
+    font-size: 0.8rem;
+
 }
