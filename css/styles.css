@@ -16,17 +16,14 @@ div.t-container{
 }
 
 .t-container>h1{
-    font-size: 4em;
-    position: absolute;
-    top: 7rem;
-    left: 40vw;
+    font-size: 6rem;
+    margin-top: 3.125rem;
+    margin-bottom: 0;
 }
 
 .t-container>p{
-    font-size: 1.5em;
-    position: absolute;
-    top: 15rem;
-    left: 36vw;
+    font-size: 2.5rem;
+    margin-top: 1.6rem;
 }
 
 .t-container>p>span{
