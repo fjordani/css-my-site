@@ -59,13 +59,13 @@ h3,a{
 #top-cloud{
     position: absolute;
     right: 20vw;
-    top: 2rem;
+    top: 2.5rem;
     width: 12em;
 }
 
 #bottom-cloud{
     position: absolute;
-    left: 20vw;
+    left: 16vw;
     bottom: 32rem;
     width: 12em;
 }
@@ -85,35 +85,35 @@ h3,a{
     margin-left: auto;
 }
 
-.skills>h2{
-    padding: 2rem 0 2rem 0;
-}
-div.skill-row{
-    width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
+.profile>p{
+    line-height: 2;
+    margin: 1.6rem auto 0 auto;
+    width: 30%;
 }
 
-.skill-row>h3,.skill-row>p{
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
     text-align: left;
 }
 
-
 .skill-row>p{
-    padding-bottom: 2.5rem;
+    line-height: 2rem;
+}
+
+.skill-row>img{
+    width: 25%;
 }
 
 .img1{
     float:left;
-    padding-right: 1.5rem;
-    padding-bottom: 2rem;
-
+    padding-right: 1.87rem;
 }
 
 .img2{
     float: right;
-    padding-left: 1rem;
-    padding-bottom: 3rem;
+    padding-left: 1.87rem;
+    margin-bottom: 4rem;
 }
 
 .btn{
